@@ -28,6 +28,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: 
+          tags: |
             ionetixgreg/node-gcloud:latest
             ionetixgreg/node-gcloud:main-${{ steps.vars.outputs.sha_short }}
